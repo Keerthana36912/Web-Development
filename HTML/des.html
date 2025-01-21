@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f2f2f2;
+}
+
+.container {
+  display: table;
+  width: 100%;
+  margin: 20px auto;
+  border-collapse: collapse;
+}
+
+.row {
+  display: table-row;
+}
+
+.cell {
+  display: table-cell;
+  padding: 15px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+.cell:first-child {
+  background-color: #4CAF50;
+  color: white;
+  font-weight: bold;
+}
+
+.cell:nth-child(2) {
+  background-color: #008CBA;
+  color: white;
+}
+
+.cell:nth-child(3) {
+  background-color: #f44336;
+  color: white;
+}
+
+.cell:nth-child(4) {
+  background-color: #00BCD4;
+  color: white;
+}
+.cell:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+button {
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+</style>
+</head>
+<body>
+
+<table class="container">
+  <tr>
+    <td class="cell">Pi, Here I come (Finding n)</td>
+    <td class="cell">Pi, Here I come (Finding n)</td>
+    <td class="cell"><button>TUTORIAL</button></td>
+    <td class="cell"><button>DEMO</button></td>
+    <td class="cell"><button>DOWNLOAD </button></td>
+  </tr>
+</table>
+
+</body>
+</html>
